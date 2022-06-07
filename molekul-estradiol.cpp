@@ -6,6 +6,19 @@
 
 using namespace std;
 
+float densitas;             /* densitas ini memiliki satuan g cm^-3
+                            dan ini harus diinput dari user */
+// converter dari nilai cm^-3 ke A^3
+float cm3_to_A3 = 1.0E-24;  
+float numb_mol;
+float Na = 6.022E23;            // bilangan avogadro    
+float Mr_C18H24O2 = 272,0;         // massa relatif dari C18H24O2 
+int numb_lat;                   // panjang sel simulasi    
+int N;                          // jumlah molekul 
+float volum;                    // volume dari molekul C18H24O2
+float lx, ly, lz;               // panjang sel simulasi terhitung
+float lat;                      // jarak antar molekul C18H24O2
+
 int main(){
   //deklarasi variable
   float pi = 3,14;
