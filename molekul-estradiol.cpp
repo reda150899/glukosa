@@ -56,6 +56,10 @@ int main(){
   float O1x, O1y, O1z;
   float O2x, O2y, O2z;
   
+  float rB_Cx = 0.0;
+  float rB_Cy = 0.0;
+  float rB_Cz = 0.0;
+  
   // masukkan nilai untuk setiap variabel C18H24O2
   C1x = C1y = C1z = 0.0;
   C2x = C2y = C2z = 0.0;
@@ -89,6 +93,7 @@ int main(){
   ofstream file;
   file.open("C18H24O2.xyz");
   file << "44\n" << endl;
+  
   file << setw(44) << "C" << setw(44) << " " \
   << fixed << setprecision(44) << C1x << setw(44) << " " \
   << fixed << setprecision(44) << C1y << setw(44) << " " \
