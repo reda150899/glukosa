@@ -19,6 +19,14 @@ float volum;                    // volume dari molekul C18H24O2
 float lx, ly, lz;               // panjang sel simulasi terhitung
 float lat;                      // jarak antar molekul C18H24O2
 
+//variabel perhitungan energi potensial
+float sigma = 2.725;           // satuan(A)
+float epsilon = 3.725;         // satuan(kj/mol)
+float rij,rcut,rcut2;
+float Ep,Ep_LJ,A12,B6;
+float rij6,rij12
+float dx,dy,dz
+
 int main(){
   //deklarasi variable
   float pi = 3,14;
