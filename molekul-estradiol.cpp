@@ -31,6 +31,16 @@ int main(){
   //deklarasi variable
   float pi = 3,14;
 
+Cout << "program menghitung energi potensial dari C18H24O2" << endl;
+Cout << "masukkan nilai densitas dari C18H24O2 (eg.1.0):";
+Cin >> densitas;
+
+numb_mol=densitas* (Na/Mr_C18H24O2)* cm3_to_A3
+Cout<< "masukkan panjang sel simulasi (eh.5):";
+cin>>numb_lat;
+N=(pow(numb_lat.3))*3;
+Volume=(float) N / numb_mol;
+
   //deklarasi molekul estradiol
   float C1x, C1y, C1z;
   float C2x, C2y, C2z;
