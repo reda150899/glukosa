@@ -41,6 +41,15 @@ cin>>numb_lat;
 N=(pow(numb_lat.3))*3;
 Volume=(float) N / numb_mol;
 
+bentuk molekul C18H24O2
+             | |
+          / \|/ \
+ R       |   |__/
+  \ / \ / \ /
+   |   |   |
+  / \ / \ /
+HO
+
   //deklarasi molekul estradiol
   float C1x, C1y, C1z;
   float C2x, C2y, C2z;
